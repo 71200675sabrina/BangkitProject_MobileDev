@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.biodata.fragment.SkinHealthInformationFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="20dp">
+
+        <TextView
+            android:id="@+id/tv_skinProblem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textSize="25sp"
+            android:text="@string/tv_skin_problem" />
+
+        <Button
+            android:id="@+id/btn_acne"
+            android:background="@drawable/button_outline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/acne"
+            android:textColor="@color/grey"
+            app:backgroundTint="@null"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_skinProblem" />
+
+        <Button
+            android:id="@+id/btn_drySkin"
+            android:background="@drawable/button_outline"
+            app:backgroundTint="@null"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/dry_skin"
+            android:textColor="@color/grey"
+            app:layout_constraintStart_toEndOf="@+id/btn_acne"
+            app:layout_constraintTop_toBottomOf="@+id/tv_skinProblem" />
+
+        <Button
+            android:id="@+id/btn_oilySkin"
+            android:background="@drawable/button_outline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/oily_skin"
+            android:textColor="@color/grey"
+            app:backgroundTint="@null"
+            app:layout_constraintStart_toEndOf="@+id/btn_drySkin"
+            app:layout_constraintTop_toBottomOf="@+id/tv_skinProblem" />
+
+        <TextView
+            android:id="@+id/tv_select_problem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/please_select_your_skin_problem"
+            android:textColor="#b44"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_acne" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="80dp"
+        android:layout_gravity="center|bottom">
+
+        <TextView
+            android:id="@+id/tv_announcement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:textColor="@color/grey"
+            android:text="@string/the_information_in_this_page_will_used_for_your_product_and_article_recommendation"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/iv_info"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/iv_info"
+            android:layout_width="20dp"
+            android:layout_height="0dp"
+            android:src="@drawable/outline_info_24"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_marginHorizontal="20dp"
+        android:text="@string/next"
+        android:layout_gravity="bottom|center"/>
+
+
+
+
+</FrameLayout>

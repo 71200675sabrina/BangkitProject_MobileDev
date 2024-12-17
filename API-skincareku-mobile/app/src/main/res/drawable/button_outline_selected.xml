@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <solid android:color="@android:color/transparent" /> <!-- Set the background color when the button is pressed -->
+            <stroke
+                android:width="1dp"
+                android:color="@color/blue" /> <!-- Set the border color when the button is pressed -->
+            <corners android:radius="8dp" /> <!-- Set the corner radius of the button -->
+        </shape>
+    </item>
+
+</selector>

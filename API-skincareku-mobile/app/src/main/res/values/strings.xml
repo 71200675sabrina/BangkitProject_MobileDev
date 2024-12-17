@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Skincareku</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_up_now">Sign Up Now</string>
+    <string name="recovery_password">Recovery Password</string>
+    <string name="create_account">Create Account</string>
+    <string name="name">Name</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="insert_name">Name can\'t be empty</string>
+    <string name="insert_email">Email can\'t be empty</string>
+    <string name="insert_password">Password can\'t be empty</string>
+    <string name="insert_confirm_password">Password confirmation can\'t be empty</string>
+    <string name="password_not_match">Password confirmation doesn\'t match</string>
+    <string name="invalid_email">Email that you input is invalid</string>
+    <string name="password_length">Password at least 6 character</string>
+
+    <string name="login_error">Username or Password incorrect</string>
+    <string name="no_internet">No Internet</string>
+    <string name="connection_error">Please check your connection</string>
+    <string name="retry">Retry</string>
+    <string name="email_taken">This email already registered</string>
+    <string name="success_register">Your account has been created, let\'s login now</string>
+    <string name="login_now">Login Now</string>
+    <string name="success_register_title">Register Successfully</string>
+    <string name="date">Date</string>
+    <string name="birthdate">Birthdate</string>
+    <string name="gender">Gender</string>
+    <string name="save">Save</string>
+    <string name="next">Next</string>
+    <string name="tv_skin_problem">What is your skin problem now?</string>
+    <string name="acne">Acne</string>
+    <string name="dry_skin">Dry Skin</string>
+    <string name="submit">Submit</string>
+    <string name="the_information_in_this_page_will_used_for_your_product_and_article_recommendation">The information in this page will used for your product and article recommendation</string>
+    <string name="complete_profile">Last step to finish your registration</string>
+    <string name="oily_skin">Oily Skin</string>
+    <string name="birthdate_error">Birth Date can\'t be empty</string>
+    <string name="gender_error">Gender can\'t be empty</string>
+    <string name="please_select_your_skin_problem">Please select your skin problem</string>
+    <string name="most_recommendation">Most Recommendation</string>
+    <string name="hello">Hi, Henry</string>
+    <string name="acids">Acids</string>
+    <string name="essential_oils">Essential Oils</string>
+    <string name="sulfates">Sulfates</string>
+</resources>
